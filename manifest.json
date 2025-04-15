@@ -6,7 +6,7 @@
     "content_scripts": [
       {
         "js": ["content_script.js"],
-        "matches": ["https://www.albumoftheyear.org//*"]
+        "matches": ["https://www.albumoftheyear.org/*"]
       }
     ]
   }

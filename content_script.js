@@ -1,13 +1,13 @@
-// const imgs = document.getElementsByTagName("img"); 
-
-// for (image of imgs) { 
-//     image.src = "https://www.thefoodinmybeard.com/content/taco/whitepeople/wpt10.jpg"; 
-// }
-
-const ratingDivs = document.querySelectorAll('div.rating');
+const ratingDivs = document.querySelectorAll('div.ratingRow');
 
 for (ratings of ratingDivs) { 
-    ratings.textContent = ''; 
+    ratings.remove();  
 }
 
+const albumBox = document.querySelectorAll('div.albumCriticScoreBox');
+albumBox.remove(); 
+
+for (boxs of albumBox) { 
+    boxs.remove();  
+}
 

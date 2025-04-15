@@ -1,2 +1,2 @@
 # AlbumOfTheYearScoreHider
-A google chrome extension that allows users to hide ratings on the website Album of The Year. 
+A google chrome extension that allows users to hide ratings on the website Album of The Year. For some reason, this is not a default feature of AOTY and thus this extension was created. 
