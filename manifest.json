@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "AOTY Score Hider",
+    "version": "0.1.0",
+    "description": "An Extension that hides review scores on the AlbumOfTheYear website",
+    "content_scripts": [
+      {
+        "js": ["content_script.js"],
+        "matches": ["https://www.albumoftheyear.org//*"]
+      }
+    ]
+  }
